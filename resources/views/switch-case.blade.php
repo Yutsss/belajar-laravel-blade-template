@@ -1,0 +1,20 @@
+<html>
+    <body>
+    @switch($value)
+        @case('A')
+            Memuaskan
+            @break
+        @case('B')
+            Baik
+            @break
+        @case('C')
+            Cukup
+            @break
+        @case('D')
+            Kurang
+            @break
+        @default
+            Gagal
+    @endswitch
+    </body>
+</html>
